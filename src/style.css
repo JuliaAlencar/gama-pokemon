@@ -1,0 +1,93 @@
+html, body {
+	width: vw;
+	height: vh;
+}	
+
+img {
+	max-width: 15rem;
+	max-height: 15rem;
+	margin: 1rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+li {
+	background-color: #FFDE00;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	margin: .5rem;
+	border-radius: 5px;
+}
+
+#corpo{
+	display: flex;
+}
+
+#poke-container{
+	flex-wrap: wrap;
+	margin: 1rem;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 75%;
+}
+
+#pokedex{
+	width: 25%;
+	height: 50rem;
+	margin-right: 2rem;
+	border: 5px solid #E7E7E7;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+#barraPesq{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 3rem;
+}
+
+.card{
+	box-shadow: 1px 1px 5px #ededed;
+	margin: .5rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 1rem;
+}
+
+#sideTitulo {
+	text-align: center;
+	font-weight: normal;
+}
+
+hr{
+	border: 2px solid #FFDE00;
+}
+
+#finalizar {
+	height: 5rem;
+	width: 100%;
+	background: #FFDE00;
+	border-radius: 0px 0px 20px 20px;
+	border: none;
+	
+	&:active {
+		outline: none;
+		box-shadow: none;
+	}	
+}
+
+#totalCompra {
+	display: flex;
+	justify-content: space-between;
+}
