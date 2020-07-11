@@ -19,7 +19,7 @@ function App() {
 
   function fetchKantoPokemon(){
 		pagina=pagina+1;
-      fetch('https://pokeapi.co/api/v2/pokemon/?offset=${pagina*20}&limit=20')
+      fetch('https://pokeapi.co/api/v2/pokemon/?offset=${pagina*20}&limit=${20+pagina*20}')
       .then(response => response.json())
       .then(function(allpokemon){
         allpokemon.results.forEach(function(pokemon){
