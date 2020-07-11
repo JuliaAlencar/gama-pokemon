@@ -1,4 +1,4 @@
-#PokeStore:
+# PokeStore:
 > Status do Projeto: Em desenvolvimento :warning:
 ![Badge](https://img.shields.io/static/v1?label=Evolucao&message=50%&color=yellow&style=for-the-badge&logo=)
 
